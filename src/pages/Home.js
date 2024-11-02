@@ -1,5 +1,4 @@
 import React from 'react';
-import CosmicBackground from '../components/CosmicBackground';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
@@ -7,7 +6,7 @@ const Home = () => {
 
   return (
     <div style={styles.homeContainer}>
-      <CosmicBackground />
+      
       <div style={styles.textContent}>
         <h1 style={styles.title}>Welcome to My Cosmic Portfolio</h1>
         <p style={styles.subtitle}>Exploring the Universe through Space, Physics, and Code</p>

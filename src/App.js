@@ -8,11 +8,12 @@ import Contact from './pages/Contact';
 import GitHubb from './pages/Github';
 import Blog from './pages/Blog';
 import Navbar from './components/Navbar';
-
+import CosmicBackground from './components/CosmicBackground';
 function App() {
   return (
     <Router>
       <Navbar />
+      <CosmicBackground />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
